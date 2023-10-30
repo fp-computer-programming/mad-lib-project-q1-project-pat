@@ -1,0 +1,152 @@
+#adding tools I need
+
+import time 
+import random 
+import math 
+
+#define commands (easy comands display on screen)
+def say (Rick):
+        print(str(Rick))
+        time.sleep(.10)
+#Welcomes them to the game
+say ("hello adventure")
+name = input ("the name of the Professor")
+say(f"welcome to Bad lands Professor {name}")
+say(f"explains the rules of the game in simple terms")
+say(f"ask what gender the person wants to be in game")
+say (f"ask what traits the Prsfessor wants")
+say(f"i will ask what gear you want for your adve,physical feature")
+say (f"Professor get ready for your journey ")
+time.sleep 
+#long loading screen to make the player think his pc will crash 
+say (f"loading....")
+#starts the game
+points = 0 
+say(f"WELCOME")
+say(f"brings Professor to the map")
+say (f"First puzzle")
+#write true or false to the anwser below if the city is in europe 
+say (f"For this puzzel you need to write true or false if that city is in europe")
+say (f"true for european citys and false for others")
+london = input("london true or false")
+Paris = input ("Paris true or false")
+Newyork = input ("Newyork true or false")
+Toulouse = input("Toulouse true or false")
+Tokyo = input("Tokyo true or false") 
+Athens = input ("Athens true or false")
+Sofia = input ("Sofia true or false")
+rouen = input ("rouen true or false")
+Porto = input ("Porto true or false")
+capetown = input ("capetown true or false")
+if london == True:
+        points +=1 
+if Paris is True: 
+        points += 1 
+if Newyork is False:
+        points += 1 
+if Toulouse is True:
+        points += 1
+if Tokyo is  False:     
+        points  += 1
+if Athens is True: 
+        points += 1
+if Sofia is True: 
+        points += 1
+if rouen is True: 
+        points += 1 
+if Porto is True: 
+        points += 1
+if capetown is False:
+        points += 1 
+print(points)
+# Good job now to the next puzzel 
+say (f"Now the next Puzzel will be.....")
+say (f"nouns and ajectives")
+say (f"in face of a question say true or false")
+Boy = input("Is boy a Noun")
+Girl = input ("Is Girl a Noun")
+Asia = input ("Is a Asia a noun")
+Nasty = input ("Nasty is a Ajective")
+Planet = input ("Is Planet a Noun")
+City = input ("Is city a noun")
+River = input("is River a ajective")
+Freedom = input ("is Freedom a noun")
+Bat = input ("Is bat a ajective")
+Positive = input ("is posotive a noun")
+if Boy == True:
+        points +=1 
+if Girl is True: 
+        points += 1 
+if Asia is True:
+        points += 1 
+if Nasty is False:
+        points += 1
+if Planet is  True:     
+        points  += 1
+if City is True: 
+        points += 1
+if River is True: 
+        points += 1
+if Freedom is True: 
+        points += 1 
+if Bat is True: 
+        points += 1
+if Positive is True:
+        points += 1 
+print(points)
+# you have comapleted the second puzzel 2/3 are complated
+# could have won up to 20 points
+say (f"Good job with the second puzzel")
+say (f"Now for the final Puzzle")
+say (f" you will have to say true of false in front of these questions")
+say (f"True if the anwser is a real sea ")
+say (f" If the awnser is not a real sea in our world say false")
+# Begining of the third puzzel  
+Redsea = input("Is black sea a real sea")
+Blacksea = input ("is the red sea a real sea")
+Pinksea = input ("Is the pink sea a real sea")
+Javasea = input ("is the java sea a real sea")
+Labradorsea = input ("Is the labrador sea a real sea")
+Aegeansea = input ("is the aegean sea a real sea")
+Rosssea = input ("is the rose sea a real sea")
+Balticsea = ("is the baltic sea a real sea")
+Timorsea = ("is the timor sea a real sea")
+Greensea = input ("is the green sea a real sea")
+if Redsea == True:
+        points +=1 
+if Blacksea is True: 
+        points += 1 
+if Pinksea is False:
+        points += 1 
+if Javasea is True:
+        points += 1
+if Labradorsea is  True:     
+        points  += 1
+if Aegeansea is True: 
+        points += 1
+if Rosssea is True: 
+        points += 1
+if Balticsea is True: 
+        points += 1 
+if Timorsea is True: 
+        points += 1
+if Greensea is True:
+        points += 1 
+print(points) 
+say (f" good job your have comapleted all three quizes")
+time.sleep(.5)
+say (f"adding all your points professor")
+time.sleep(.10)
+say (f"good job your have completed the coarse with high marks")
+
+
+
+
+
+
+
+
+
+
+
+
